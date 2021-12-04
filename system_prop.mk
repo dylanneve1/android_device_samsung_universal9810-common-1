@@ -43,3 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #    persist.sys.usb.config=mtp,adb \
 #    ro.debuggable=1 \
 #    ro.adb.secure=0
+
+# priv-app permissions
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=disable

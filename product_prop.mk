@@ -43,3 +43,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.notification_sound=Duet.ogg \
     ro.config.alarm_alert=Gentle_breeze.ogg \
     ro.config.vc_call_vol_steps=7
+
+# priv-app permissions
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=disable
